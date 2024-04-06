@@ -480,6 +480,7 @@ body{
 
 .contact-box .btn{
     cursor: pointer;
+    margin-left: 17.5rem;
 }
 
 .back-profile
@@ -612,6 +613,10 @@ body{
         padding: .5rem;
         font-size: .8rem;
         margin-bottom: .7rem;
+    }
+    .contact-box .btn{
+        margin:0 1rem;
+        margin-top: 6rem;
     }
 }
 /* @media(max-width:730px){ */
