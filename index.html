@@ -245,11 +245,13 @@
                     <h1 class="title">Contact Me !</h1>
 
                     <div class="contact-box">
-                        <form action="https://formsubmit.co/subikr11.12.2003@gmail.com" method="POST"  data-netlify="true">
+                        <form action="https://formsubmit.co/subikr11.12.2003@gmail.com" method="POST" netlify data-netlify="true">
                             <input type="text" name="name" class="field" placeholder="Full Name" required>
                             <input type="text" name="email" class="field" placeholder="Email Address" required>
                             <textarea name="message" id="" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
                             <input type="submit" class="btn" value="Send Message">
+                            
+                            <div data-netlify-recaptcha="true"></div>
 
                             <!-- Hidden Fields -->
                             <input type="hidden" name="_subject" value="New submission from your portfolio!">
