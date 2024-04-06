@@ -480,8 +480,17 @@ body{
 
 .contact-box .btn{
     cursor: pointer;
-    margin-left: 17.5rem;
+    /* margin-left: 17.5rem; */
+    height: 2rem;
     width: 5rem;
+}
+
+.contact-box .container
+{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .back-profile
