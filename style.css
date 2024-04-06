@@ -155,6 +155,7 @@ body{
 
 .profile-page p{
     text-align: justify;
+    font-size: 13px;
 }
 .profile-page .btn-box
 {
@@ -246,6 +247,10 @@ body{
 .workeduc-box .workeduc-content h3{
 
     font-size: 1.1rem;
+}
+.workeduc-content p
+{
+    font-size: 13px;
 }
 
 .workeduc-box .list
@@ -636,7 +641,6 @@ body{
     {
         display: flex;
         flex-direction: column;
-        align-items: left;
     }
 }
 /* @media(max-width:730px){ */
